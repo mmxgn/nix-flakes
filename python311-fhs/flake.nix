@@ -6,8 +6,6 @@
     nixpkgs.url = "github:nixos/nixpkgs?ref=nixos-25.05";
   };
 
-  inputs.flake-utils.inputs.system.follows = "nixpkgs";
-
   outputs = {
     self,
     nixpkgs,
