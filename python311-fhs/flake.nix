@@ -21,7 +21,7 @@
             pkgs.buildFHSEnv
             {
               name = "python-311-fhs env";
-              targetPkgs = p: [simplePythonEnv p.libGL p.glib p.uv];
+              targetPkgs = p: [simplePythonEnv p.libGL p.glib p.uv p.libz];
             }
           )
           .env;
